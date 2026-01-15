@@ -12,8 +12,9 @@
 | :--- | :--- | :--- | :--- | :--- |
 | **The Magnet** | **Imported Capital** (`lsEGLD / USDC`) | **35%** | **35,000** | Create deepest liquidity port ($20M+). |
 | **The Accumulator** | **Staking Depth** (Leveraged Loop) | **25%** | **25,000** | Drive Staking Ratio > 60%. |
-| **The House** | **Perps Liquidity** (Cross-Margin) | **25%** | **25,000** | Bootstrap High Velocity engine. |
-| **The Anchor** | **Peg Stability** (`EGLD / lsEGLD`) | **15%** | **15,000** | Liquid Staking Peg Guarantee. |
+| **The House** | **Perps Liquidity** (Cross-Margin) | **25%** | **25,000** | Bootstrap High Velocity engine. **(See Velocity-Gated Release)**. |
+| **The Anchor** | **Peg Stability** (`EGLD / lsEGLD`) | **10%** | **10,000** | Liquid Staking Peg Guarantee. |
+| **The Bond** | **Yield Stripping** (Fixed Rate) | **5%** | **5,000** | Create Fixed-Income for Treasuries (Pilot). |
 
 ---
 
@@ -44,7 +45,7 @@
 *   **Target Volume**: **$20M / Day**.
 *   **Target TVL**: **$200M**.
 *   **Est. Revenue**: **$3M / Yr** ($250k/mo).
-*   *Note*: At this scale, the 20% Tax covers ~25% of the Accelerator Budget.
+*   *Note*: The 20% Fee Share is **Reinvested** (Compounding Vector) to deepen reserves and fund HLP, not burned.
 
 ---
 
@@ -64,13 +65,13 @@
 *   **Allocation**: 25k EGLD/mo (Boost points to Vault).
 
 ### 3. The House (Perps)
-*   **Allocation**: 25k EGLD/mo.
+*   **Allocation**: 25k EGLD/mo. **Gated Release**: 5k (Wk 1-2) -> 10k (Wk 3-4 if 1x Turn) -> Full unlock (Month 2).
 *   **Target Efficiency**: We aim for the "Hyperliquid Standard" (0.15 Fee/TVL ratio).
 *   **Mechanism**: Cross-Margin Vault (lsEGLD + USDC).
 
 ## V. Roadmap
 | Primitive | Grant Focus | Target Launch |
 | :--- | :--- | :--- |
+| **Bond Market** | **"The Yield Stripper"**. Unlocks Fixed Rates. | Month 2 (Pilot) |
 | **Prediction Markets** | **"The Event Horizon"**. Viral Events. | Month 3 |
-| **Yield Stripping** | **"The Bond Market"**. Fixed Rates. | Month 5 |
 | **Options Vaults** | **"The Volatility Engine"**. Covered Calls. | Month 6 |
